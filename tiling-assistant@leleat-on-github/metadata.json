@@ -1,6 +1,6 @@
 {
-  "description": "Expand GNOME's 2 column tiling and add a Windows-snap-assist-inspired popup...",
-  "name": "Tiling Assistant",
+  "description": "Fork of Tiling Assistant with Rectangle-style monitor traversal: repeating tile left/right half moves the window to the adjacent monitor.\n\nExpand GNOME's 2 column tiling and add a Windows-snap-assist-inspired popup...",
+  "name": "Tiling Assistant (Vito)",
   "shell-version": [
     "48",
     "49",
@@ -8,7 +8,7 @@
     "51"
   ],
   "url": "https://github.com/ubuntu/Tiling-Assistant",
-  "uuid": "tiling-assistant@leleat-on-github",
+  "uuid": "tiling-assistant@vito",
   "gettext-domain": "tiling-assistant@leleat-on-github",
   "settings-schema": "org.gnome.shell.extensions.tiling-assistant",
   "version": 56

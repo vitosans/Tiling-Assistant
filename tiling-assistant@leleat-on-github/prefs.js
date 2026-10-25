@@ -21,7 +21,7 @@ export default class Prefs extends ExtensionPreferences {
 
         const settings = this.getSettings();
         const builder = new Gtk.Builder();
-        builder.set_translation_domain(this.uuid);
+        builder.set_translation_domain(this.metadata['gettext-domain']);
         builder.add_from_file(`${this.path}/src/ui/prefs.ui`);
 
         // Add general preference page
